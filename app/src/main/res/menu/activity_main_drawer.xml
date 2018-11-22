@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/calculadora"
+            android:title="calculator"
+            android:icon="@drawable/ic_menu_calculadora"/>
+
+        <item
+            android:id="@+id/media"
+            android:title="média"
+            android:icon="@drawable/ic_menu_media"/>
+        <item
+            android:id="@+id/callsimulator"
+            android:title="call simulator"
+            android:icon="@drawable/ic_menu_callsimulator"/>
+        <item
+            android:id="@+id/profile"
+            android:title="profile"
+            android:icon="@drawable/ic_menu_profile"/>
+    </group>
+    <item android:title="settings">
+
+        <menu>
+            <item
+                android:id="@+id/settings"
+                android:title="settings"
+                android:icon="@drawable/ic_menu_settings"
+        </menu>
+    </item>
+
+
+</menu>
